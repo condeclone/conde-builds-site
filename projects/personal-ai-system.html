@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Personal AI System | Conde Builds</title>
+    <meta name="description" content="A sanitized case study for a local-first personal AI system for inventory, OCR, duplicate review, media cataloging, and backup verification.">
+    <meta property="og:title" content="Personal AI System | Conde Builds">
+    <meta property="og:description" content="Local-first AI system for inventory, OCR, duplicate review, media cataloging, and backup verification.">
+    <meta property="og:image" content="https://conde-builds.com/assets/img/personal-ai-system.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="stylesheet" href="../assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="../index.html"><strong>Conde Builds</strong><span>Marcos M. Conde</span></a>
+        <div class="nav-links">
+          <a href="index.html" aria-current="page">Projects</a>
+          <a href="../career.html">Career</a>
+          <a href="../experiments.html">Smaller Builds</a>
+          <a href="../contact.html">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="page-hero-inner">
+          <p class="eyebrow">Featured build</p>
+          <h1>Personal AI System</h1>
+          <p>A local-first system for organizing documents and still images, adding searchable intelligence, and keeping AI suggestions traceable and reviewable.</p>
+        </div>
+      </section>
+
+      <section class="section two-column">
+        <div class="case-image">
+          <img src="../assets/img/personal-ai-system.svg" alt="Abstract Personal AI System map">
+        </div>
+        <div class="case-copy">
+          <div class="case-block">
+            <h2>Problem</h2>
+            <p>Personal archives become hard to search, back up, deduplicate, and review as they grow across documents, images, media lists, and generated reports. Cloud-first tools can be convenient but do not always fit privacy-sensitive archives.</p>
+          </div>
+          <div class="case-block">
+            <h2>Build</h2>
+            <p>A local Python system with inventory scanning, written-work cataloging, image metadata extraction, OCR, duplicate review, image search, face review, backup verification, media cataloging, review queues, and local Q&A foundations.</p>
+          </div>
+          <div class="case-block">
+            <h2>Design rule</h2>
+            <p>Original files remain read-only unless a separate reviewed action says otherwise. Generated catalogs stay local. Every automated suggestion should trace back to a source file.</p>
+          </div>
+          <div class="case-block">
+            <h2>Tools</h2>
+            <div class="tag-row">
+              <span class="tag">Python</span>
+              <span class="tag">SQLite</span>
+              <span class="tag">OCR</span>
+              <span class="tag">OpenCLIP-style search</span>
+              <span class="tag">Local AI</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section compact">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">System map</p>
+            <h2>Private by default, useful by design.</h2>
+          </div>
+          <p>This case study intentionally avoids real personal media screenshots. The value is in the architecture and review discipline.</p>
+        </div>
+        <div class="system-map">
+          <div class="note-card"><h3>Inventory</h3><p>Records path, size, modified time, extension, and optional hashes into a local catalog.</p></div>
+          <div class="note-card"><h3>Search</h3><p>Builds searchable indexes for written work, metadata, OCR output, and image similarity workflows.</p></div>
+          <div class="note-card"><h3>Review</h3><p>Uses approval queues for AI tags, face naming, duplicate review, and portfolio-style outputs.</p></div>
+          <div class="note-card"><h3>Backups</h3><p>Compares backup scans and exports must-keep project materials into portable packs.</p></div>
+          <div class="note-card"><h3>Media catalog</h3><p>Tracks game, movie, show, and backlog records with quick status views and edits.</p></div>
+          <div class="note-card"><h3>Local memory</h3><p>Stores reviewed facts, corrections, and approvals for later reuse in reports and local Q&A.</p></div>
+        </div>
+      </section>
+
+      <section class="section compact">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">Actual dashboard snapshots</p>
+            <h2>Views from the working local system.</h2>
+          </div>
+          <p>These screenshots come from the project dashboard and show the read-only report launcher, documentation hub, and operating guardrails.</p>
+        </div>
+        <div class="gallery note-gallery">
+          <figure>
+            <img src="../assets/img/personal-ai-actual-overview.png" alt="Personal AI dashboard overview with inventory and report cards">
+            <figcaption>Dashboard overview with inventory totals, image coverage, document-like files, and primary report links.</figcaption>
+          </figure>
+          <figure>
+            <img src="../assets/img/personal-ai-actual-workflows.png" alt="Personal AI dashboard launchers and project documentation">
+            <figcaption>Launcher and documentation sections show the system as a controlled local operations console.</figcaption>
+          </figure>
+          <figure>
+            <img src="../assets/img/personal-ai-actual-reports.png" alt="Personal AI dashboard run tools and safety note">
+            <figcaption>Run tools stay read-only by default, with cleanup and file movement gated behind review and backups.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section compact">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">Example views</p>
+            <h2>Sanitized pictures of how the system behaves.</h2>
+          </div>
+          <p>These visuals show the workflows without exposing private photos, documents, face crops, or media records.</p>
+        </div>
+        <div class="gallery note-gallery">
+          <figure>
+            <img src="../assets/img/personal-ai-dashboard.svg" alt="Personal AI command center example">
+            <figcaption>Command center for inventory freshness, review queues, backups, and local memory.</figcaption>
+          </figure>
+          <figure>
+            <img src="../assets/img/personal-ai-search.svg" alt="Personal AI semantic search example">
+            <figcaption>Semantic search uses OCR, document text, image similarity, and reviewed memory.</figcaption>
+          </figure>
+          <figure>
+            <img src="../assets/img/personal-ai-review.svg" alt="Personal AI review queue example">
+            <figcaption>Human-in-the-loop review keeps suggestions traceable before they become accepted facts.</figcaption>
+          </figure>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <span>Conde Builds</span>
+        <div class="footer-links"><a href="sblc-system.html">SBLC</a><a href="../experiments.html">Smaller Builds</a></div>
+      </div>
+    </footer>
+    <script src="../assets/site.js" defer></script>
+  </body>
+</html>

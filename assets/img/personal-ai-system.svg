@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Personal AI System visual</title>
+  <desc id="desc">A modern abstract system map showing inventory, OCR, search, review, backups, and local memory connected around a local AI core.</desc>
+  <rect width="1200" height="760" fill="#f7f3ea"/>
+  <rect x="70" y="66" width="1060" height="628" rx="28" fill="#202726"/>
+  <g opacity=".22">
+    <path d="M132 182h936M132 294h936M132 406h936M132 518h936" stroke="#fffdf8" stroke-width="1"/>
+    <path d="M260 118v516M452 118v516M644 118v516M836 118v516" stroke="#fffdf8" stroke-width="1"/>
+  </g>
+  <circle cx="600" cy="380" r="118" fill="#0d6f68"/>
+  <circle cx="600" cy="380" r="74" fill="#fffdf8"/>
+  <g stroke="#202726" stroke-width="9" stroke-linecap="round" fill="none">
+    <path d="M600 354v52"/>
+    <path d="M574 380h52"/>
+    <path d="M581 361l38 38"/>
+    <path d="M619 361l-38 38"/>
+  </g>
+  <g fill="#202726">
+    <circle cx="600" cy="354" r="10"/>
+    <circle cx="600" cy="406" r="10"/>
+    <circle cx="574" cy="380" r="10"/>
+    <circle cx="626" cy="380" r="10"/>
+  </g>
+  <g fill="#fffdf8" stroke="#d9d0c2" stroke-width="2">
+    <rect x="150" y="142" width="214" height="124" rx="16"/>
+    <rect x="836" y="142" width="214" height="124" rx="16"/>
+    <rect x="150" y="494" width="214" height="124" rx="16"/>
+    <rect x="836" y="494" width="214" height="124" rx="16"/>
+    <rect x="493" y="94" width="214" height="96" rx="16"/>
+    <rect x="493" y="570" width="214" height="96" rx="16"/>
+  </g>
+  <g stroke="#0d6f68" stroke-width="5" stroke-linecap="round" fill="none">
+    <path d="M364 204c74 0 110 46 140 96"/>
+    <path d="M836 204c-74 0-110 46-140 96"/>
+    <path d="M364 556c74 0 110-46 140-96"/>
+    <path d="M836 556c-74 0-110-46-140-96"/>
+    <path d="M600 190v72"/>
+    <path d="M600 570v-72"/>
+  </g>
+  <g fill="#202726" font-family="Inter, Arial, sans-serif">
+    <text x="186" y="188" font-size="22" font-weight="700">Inventory</text>
+    <text x="186" y="224" font-size="16" fill="#56615f">files, hashes, metadata</text>
+    <text x="872" y="188" font-size="22" font-weight="700">Search</text>
+    <text x="872" y="224" font-size="16" fill="#56615f">OCR and image recall</text>
+    <text x="186" y="540" font-size="22" font-weight="700">Review</text>
+    <text x="186" y="576" font-size="16" fill="#56615f">human approvals</text>
+    <text x="872" y="540" font-size="22" font-weight="700">Backups</text>
+    <text x="872" y="576" font-size="16" fill="#56615f">coverage checks</text>
+    <text x="540" y="132" font-size="22" font-weight="700">Local AI</text>
+    <text x="520" y="160" font-size="16" fill="#56615f">private by default</text>
+    <text x="532" y="608" font-size="22" font-weight="700">Memory</text>
+    <text x="528" y="636" font-size="16" fill="#56615f">reviewed facts</text>
+  </g>
+</svg>

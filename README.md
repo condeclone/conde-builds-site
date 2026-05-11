@@ -18,11 +18,10 @@ After deployment, connect `conde-builds.com` in Netlify domain settings and foll
 
 ## Resume
 
-The current resume files are included here:
+The current resume file is included here:
 
 ```text
-assets/resume/Conde-Marcos-Resume-Finance-2026.pdf
-assets/resume/Conde-Marcos-Resume-Finance-2026.docx
+assets/resume/Marcos-Conde-Resume.pdf
 ```
 
-Use the PDF for public website links and keep DOCX as a recruiter fallback.
+Use the PDF for public website links.

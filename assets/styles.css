@@ -823,6 +823,31 @@ a:hover {
   min-height: 150px;
 }
 
+.system-card {
+  display: grid;
+  gap: 12px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.system-card img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: top left;
+  border-bottom: 1px solid var(--line);
+}
+
+.system-card h3,
+.system-card p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.system-card p {
+  margin-bottom: 20px;
+}
+
 @media (max-width: 860px) {
   .nav {
     min-height: auto;

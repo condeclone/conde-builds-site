@@ -8,15 +8,11 @@
       "Marcos M. Conde": "Marcos M. Conde",
       "Finance, treasury, banking operations, and automation": "Finanzas, tesoreria, operaciones bancarias y automatizacion",
       "Marcos M. Conde builds practical tools that solve operational problems and workflow friction.": "Marcos M. Conde crea herramientas practicas que resuelven problemas operativos y friccion en los flujos de trabajo.",
-      "Career systems, automation tools, and AI-assisted workflows built from real finance, treasury, banking, and controls problems.": "Sistemas profesionales, herramientas de automatizacion y flujos asistidos por IA creados a partir de problemas reales de finanzas, tesoreria, banca y controles.",
       "View Projects": "Ver proyectos",
       "Download Resume": "Descargar CV",
       "Treasury": "Tesoreria",
-      "Cashflow, budgets, reconciliation, Tableau handoff, data health.": "Flujo de caja, presupuestos, conciliacion, traspaso a Tableau y calidad de datos.",
       "SBLC Ops": "Operaciones SBLC",
-      "Lifecycle workflows, compliance packets, billing, audit trail.": "Flujos de ciclo de vida, paquetes de cumplimiento, facturacion y trazabilidad de auditoria.",
       "Local AI": "IA local",
-      "Inventory, OCR, image search, review queues, private memory.": "Inventario, OCR, busqueda de imagenes, colas de revision y memoria privada.",
       "Inventory": "Inventario",
       "What Marcos builds": "Lo que Marcos construye",
       "Operational experience turned into working systems.": "Experiencia operativa convertida en sistemas funcionales.",
@@ -45,7 +41,7 @@
       "Excel and Tableau workflows": "Flujos de Excel y Tableau",
       "Local-first AI systems": "Sistemas de IA locales",
       "Project portfolio": "Portafolio de proyectos",
-      "Sanitized case studies from practical automation work.": "Casos depurados de trabajo practico de automatizacion.",
+      "Practical automation work.": "Trabajo practico de automatizacion.",
       "These projects show the operating range: finance workflows, banking operations prototypes, local AI systems, document automation, and reporting.": "Estos proyectos muestran el rango operativo: flujos financieros, prototipos de operaciones bancarias, sistemas de IA local, automatizacion documental y reportes.",
       "Featured build": "Proyecto destacado",
       "A finance operations command center for turning recurring cash, account, budget, reconciliation, and Tableau workflows into controlled repeatable processes.": "Centro de comando de operaciones financieras para convertir flujos recurrentes de efectivo, cuentas, presupuestos, conciliacion y Tableau en procesos controlados y repetibles.",
@@ -158,6 +154,8 @@
       "Finance": "Finanzas",
       "Banking": "Banca",
       "Controls": "Controles",
+      "Automation": "Automatizacion",
+      "Privacy": "Privacidad",
       "Local-first": "Local primero"
     }
   };

@@ -13,7 +13,8 @@
     <meta name="twitter:card" content="summary_large_image">
     <link rel="stylesheet" href="assets/styles.css">
   </head>
-  <body>
+  <body class="home-refresh">
+    <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
       <nav class="nav" aria-label="Primary navigation">
         <a class="brand" href="index.html">
@@ -32,15 +33,16 @@
       </nav>
     </header>
 
-    <main>
+    <main id="main">
       <section class="hero">
         <div class="hero-inner">
           <div>
-            <p class="eyebrow">Finance, treasury, banking operations, and automation</p>
-            <h1>Marcos M. Conde automates treasury and banking operations into auditable Python systems.</h1>
-            <p class="role-signal">Treasury Ops · Python Automation · Finance Systems</p>
+            <p class="eyebrow">Treasury · Banking · Automation</p>
+            <h1>Marcos M. Conde</h1>
+            <p class="hero-summary">Turns manual treasury and banking workflows into auditable Python systems.</p>
+            <p class="role-signal">Treasury operations · Finance automation · Risk &amp; controls</p>
             <div class="hero-actions">
-              <a class="button" href="projects/index.html">View Projects</a>
+              <a class="button" href="#projects">Explore projects</a>
               <a class="button secondary" href="assets/resume/Marcos-Conde-Resume.pdf">Download Resume</a>
             </div>
           </div>
@@ -67,133 +69,64 @@
         </div>
       </section>
 
-      <section class="section compact">
-        <div class="bridge-grid">
-          <div class="bridge-copy">
-            <p class="eyebrow">What Marcos builds</p>
-            <h2>Operational experience turned into working systems.</h2>
-            <p>These projects turn manual, document-heavy work into clearer review queues, repeatable workflows, and cleaner reporting outputs.</p>
-          </div>
-          <div class="bridge-points">
-            <article class="bridge-point">
-              <strong>01</strong>
-              <div>
-                <h3>Make recurring work visible</h3>
-                <p>Dashboards and queues make operational work easier to review, prioritize, and explain.</p>
-              </div>
-            </article>
-            <article class="bridge-point">
-              <strong>02</strong>
-              <div>
-                <h3>Automate manual process</h3>
-                <p>Python tools reduce spreadsheet cleanup, document handoffs, repetitive review, and status tracking.</p>
-              </div>
-            </article>
-            <article class="bridge-point">
-              <strong>03</strong>
-              <div>
-                <h3>Keep controls visible</h3>
-                <p>Review-first outputs, audit trails, undo paths, and traceable suggestions keep automation practical.</p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
       <section class="section" id="projects">
         <div class="section-header">
           <div>
-            <p class="eyebrow">Featured builds</p>
-            <h2>Portfolio projects with business context.</h2>
+
+            <h2>Selected projects</h2>
           </div>
-          <p>Each case study is written for a recruiter or hiring manager: what problem existed, what was built, and why the result matters.</p>
+          <p>Working tools built from operational experience.</p>
         </div>
         <div class="project-grid">
           <a class="project-card" href="projects/treasury-workstation.html">
-            <div class="project-symbol" aria-hidden="true">
-              <div class="project-symbol-inner">
-                <svg viewBox="0 0 24 24"><path d="M4 19V5"/><path d="M4 19h16"/><path d="M8 15l3-4 3 2 4-7"/><path d="M17 6h1v1"/></svg>
-                <strong>Treasury</strong>
-              </div>
-            </div>
+            <img src="assets/img/treasury-main.png" alt="Treasury Workstation account and cashflow interface" width="1680" height="980" loading="lazy">
             <div class="project-card-body">
               <h3>Treasury Workstation</h3>
-              <p>Finance operations command center for cashflow, budget analysis, reconciliation, Tableau handoff, and repeatable reporting.</p>
-              <p class="project-context">Handles multi-account cashflow review and Tableau-ready exports in a single desktop app.</p>
+              <p>Multi-account cashflow review and Tableau-ready exports in a single desktop app.</p>
               <div class="tag-row">
                 <span class="tag">Python</span>
                 <span class="tag">PySide6</span>
                 <span class="tag">pandas</span>
               </div>
+              <span class="case-study-link">View case study <span aria-hidden="true">&rarr;</span></span>
             </div>
           </a>
           <a class="project-card" href="projects/sblc-system.html">
-            <div class="project-symbol" aria-hidden="true">
-              <div class="project-symbol-inner">
-                <svg viewBox="0 0 24 24"><path d="M6 3h12l2 4v14H4V7z"/><path d="M8 11h8"/><path d="M8 15h5"/><path d="M9 3v4"/><path d="M15 3v4"/></svg>
-                <strong>SBLC Ops</strong>
-              </div>
-            </div>
+            <img src="assets/img/sblc-command-center.png" alt="SBLC operations command center" width="1680" height="980" loading="lazy">
             <div class="project-card-body">
               <h3>SBLC System</h3>
-              <p>Prototype for automating manual SBLC workflows: document review, lifecycle tracking, billing packets, compliance support, and audit trails.</p>
-              <p class="project-context">Replaces a manual document chain with automated review queues and a full audit trail.</p>
+              <p class="project-status">Prototype</p>
+              <p>Document review, approval queues, and traceable evidence for SBLC operations.</p>
               <div class="tag-row">
                 <span class="tag">SQLite</span>
                 <span class="tag">Automation</span>
                 <span class="tag">OCR</span>
               </div>
+              <span class="case-study-link">View case study <span aria-hidden="true">&rarr;</span></span>
             </div>
           </a>
           <a class="project-card" href="projects/personal-ai-system.html">
-            <div class="project-symbol" aria-hidden="true">
-              <div class="project-symbol-inner">
-                <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v4"/><path d="M12 18v4"/><path d="M2 12h4"/><path d="M18 12h4"/><path d="M4.9 4.9l2.8 2.8"/><path d="M16.3 16.3l2.8 2.8"/><path d="M19.1 4.9l-2.8 2.8"/><path d="M7.7 16.3l-2.8 2.8"/></svg>
-                <strong>Local AI</strong>
-              </div>
-            </div>
+            <img src="assets/img/personal-ai-actual-overview.png" alt="Personal AI dashboard inventory and report overview" width="1680" height="980" loading="lazy">
             <div class="project-card-body">
               <h3>Personal AI System</h3>
-              <p>Local-first document and media intelligence system with inventory, OCR, duplicate review, backup verification, and AI tagging.</p>
-              <p class="project-context">Runs entirely offline: no cloud dependency, no data exposure.</p>
+              <p>Private document search, OCR, and review queues with local processing.</p>
               <div class="tag-row">
                 <span class="tag">Local AI</span>
                 <span class="tag">Privacy</span>
                 <span class="tag">Search</span>
               </div>
+              <span class="case-study-link">View case study <span aria-hidden="true">&rarr;</span></span>
             </div>
           </a>
         </div>
       </section>
 
-      <section class="tool-strip" aria-label="Built with">
-        <div class="tool-strip-inner">
-          <h2>Built With</h2>
-          <div class="tool-list">
-            <span>Python</span>
-            <span>pandas</span>
-            <span>SQLite</span>
-            <span>PySide6</span>
-            <span>Tkinter</span>
-            <span>Excel</span>
-            <span>Tableau workflows</span>
-            <span>OCR</span>
-            <span>Local AI</span>
-          </div>
-        </div>
-      </section>
-
-      <section class="signal-band">
-        <div class="signal-grid">
-          <h2>Career signal: treasury, risk, operations, Python automation, and AI workflows.</h2>
-          <div class="signal-list" aria-label="Career capabilities">
-            <span>Treasury operations</span>
-            <span>Risk and controls thinking</span>
-            <span>Workflow automation</span>
-            <span>Data cleanup and reporting</span>
-            <span>Excel and Tableau workflows</span>
-            <span>Local-first AI systems</span>
-          </div>
+      <section class="section experience-section" aria-labelledby="experience-title">
+        <h2 id="experience-title">Operations experience. Practical systems.</h2>
+        <div class="experience-grid">
+          <article><h3>Treasury &amp; cash management</h3><p>Experience across cash management, account administration, reconciliation, and reporting.</p></article>
+          <article><h3>Letters of credit</h3><p>Operational experience across document review, evergreen processing, billing, and controls.</p></article>
+          <article><h3>Risk &amp; controls</h3><p>Review controls, traceable approvals, and clear documentation built into operational workflows.</p></article>
         </div>
       </section>
 
@@ -201,12 +134,13 @@
 
     <footer class="footer">
       <div class="footer-inner">
-        <span>Marcos M. Conde — open to treasury operations, finance automation, and risk/controls roles.</span>
+        <span>Open to treasury operations, finance automation, and risk &amp; controls roles.</span>
         <div class="footer-links">
           <a href="/contact">Contact</a>
           <a href="https://www.linkedin.com/in/marcos-conde-21694651">LinkedIn</a>
         </div>
       </div>
+      <p class="portfolio-note">Conde Builds · Project screenshots are sanitized portfolio views.</p>
     </footer>
     <script src="assets/site.js" defer></script>
   </body>
